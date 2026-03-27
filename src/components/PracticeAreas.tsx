@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
-import { Scale, Shield, Globe, Landmark, Receipt, GraduationCap } from "lucide-react";
-
+import { Scale, Shield, Globe, Landmark, Receipt, GraduationCap} from "lucide-react";
+import { Link } from "react-router-dom";
 const areas = [
   {
     icon: Scale,
@@ -71,12 +71,12 @@ const PracticeAreas = () => {
               </div>
               <h3 className="text-lg font-serif font-semibold text-foreground mb-3">{area.title}</h3>
               <p className="font-sans text-sm text-muted-foreground leading-relaxed mb-4">{area.desc}</p>
-              <a
-                href={area.url}
+              <Link
+                 to={`${area.url}`}
                 className="font-sans text-sm font-medium text-gold hover:text-gold-dark transition-colors inline-flex items-center gap-1"
               >
                 Read more →
-              </a>
+              </Link>
             </motion.div>
           ))}
         </div>
