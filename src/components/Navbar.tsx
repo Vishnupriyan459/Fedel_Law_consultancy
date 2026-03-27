@@ -186,13 +186,13 @@ const Navbar = () => {
         </AnimatePresence>
       </>
     ) : (
-      <a
-        href={link.href}
+      <Link
+        to={link.href}
         onClick={() => setOpen(false)}
         className="block font-sans text-sm text-primary-foreground/80 hover:text-gold py-2 transition-colors"
       >
         {link.label}
-      </a>
+      </Link>
     )}
   </li>
 ))}
