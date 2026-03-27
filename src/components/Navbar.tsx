@@ -109,12 +109,12 @@ const Navbar = () => {
                     <ServiceMenu />
                  ) :
                  (
-                   <a
-                  href={link.href}
+                    <Link
+                  to={link.href}
                   className="font-sans lg:text-[10px] xl:text-sm text-primary-foreground/80 hover:text-gold transition-colors duration-200"
                 >
                   {link.label}
-                </a>
+                </Link>
                  ) }
                
               </li>
