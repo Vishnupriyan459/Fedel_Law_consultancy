@@ -76,7 +76,19 @@ const ServiceMenu = () => {
     <NavigationMenu className="relative ">
       <NavigationMenuList>
         <NavigationMenuItem className="">
-          <NavigationMenuTrigger className="bg-transparent hover:bg-transparent focus:bg-transparent data-[state=open]:bg-transparent shadow-none border-none font-sans lg:text-[10px] xl:text-sm text-primary-foreground/80  hover:text-gold transition-colors duration-200">
+          <NavigationMenuTrigger className="
+bg-transparent 
+hover:bg-transparent 
+focus:bg-transparent 
+data-[state=open]:bg-transparent 
+shadow-none border-none 
+font-sans lg:text-[10px] xl:text-sm 
+text-primary-foreground/80 
+hover:text-gold 
+focus:text-gold 
+data-[state=open]:text-gold 
+transition-colors duration-200
+">
             Legal Services
           </NavigationMenuTrigger>
           <NavigationMenuContent>

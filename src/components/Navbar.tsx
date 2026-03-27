@@ -3,7 +3,7 @@ import { Menu, X, Plus } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import logo from "@/assets/fedellaw-logo.png";
 import ServiceMenu from "./ServiceMenu";
-
+import { Link } from "react-router-dom";
 const navLinks = [
   { label: "Home", href: "/" },
   { label: "About Us", href: "/#who-we-are" },
@@ -172,13 +172,13 @@ const Navbar = () => {
             >
               {mobileServices.map((service) => (
                 <li key={service.label}>
-                  <a
-                    href={`/services/${service.url}`}
+                  <Link
+                    to={`/services/${service.url}`}
                     onClick={() => setOpen(false)}
                     className="block text-sm text-primary-foreground/70 hover:text-gold py-1"
                   >
                     {service.label}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </motion.ul>
