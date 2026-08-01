@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import logo from "@/assets/fedellaw-logo.png";
 import ServiceMenu from "./ServiceMenu";
 import { Link } from "react-router-dom";
+import NavHashLink from "./NavHashLink";
 const navLinks = [
   { label: "Home", href: "/" },
   { label: "About Us", href: "/#who-we-are" },
@@ -91,14 +92,14 @@ const Navbar = () => {
       {/* Main nav */}
       <nav className="bg-dark-green   ">
         <div className="container mx-auto flex items-center justify-between py-3 px-4">
-          <a href="/" className="flex items-center gap-3">
+          <Link to="/" className="flex items-center gap-3">
             <img src={logo} alt="Fedel Law Consultancy" className="h-12 w-auto" />
             <div className="hidden sm:block ">
               <span className="text-xl font-serif font-bold text-gold">FEDEL </span>
               <span className="text-xl font-serif font-bold text-primary-foreground">LAW</span>
               <p className="text-[10px] tracking-[0.2em] text-gold-light uppercase">Consultancy</p>
             </div>
-          </a>
+          </Link>
 
           {/* Desktop links */}
           <ul className="hidden lg:flex items-center gap-8">

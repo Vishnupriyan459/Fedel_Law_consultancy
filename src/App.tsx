@@ -9,15 +9,18 @@ import ServicePage from "./pages/ServicePage";
 import MentorshipPage from "./pages/MentorshipPage";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-
+import ScrollToHash from "./components/ScrollToHash";
 const queryClient = new QueryClient();
+
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
+    
     <TooltipProvider>
       <Toaster />
       <Sonner />
       <BrowserRouter>
+      <ScrollToHash />
         <Navbar />
         <Routes>
           <Route path="/" element={<Index />} />
