@@ -23,7 +23,7 @@ const Footer = () => {
       alert("Please fill all fields");
       return;
     }
-    const whatsappNumber = "919360676566";
+    const whatsappNumber = "918610172215";
 
     const text = `Name: ${name}\nContact: ${contact}\nMessage: ${message}`;
 
