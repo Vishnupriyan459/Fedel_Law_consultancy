@@ -10,7 +10,7 @@ const experts = [
     desc: "Experienced advocate providing legal consultancy and court representation across Chennai, Chengalpattu, and surrounding areas.",
   },
   {
-    image: maleLawyer,
+    image: femaleLawyer,
     name: "V.H. Gokulan, B.A., LL.M.",
     role: "Advocate | Consumer & Litigation Specialist",
     desc: "Dedicated legal consultant offering client-focused support in litigation and legal advisory services.",
