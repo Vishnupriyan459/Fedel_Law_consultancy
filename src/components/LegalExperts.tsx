@@ -5,13 +5,13 @@ import maleLawyer from "@/assets/lawyer-male.jpg";
 const experts = [
   {
     image: femaleLawyer,
-    name: "A.R. Amritha Bhagavathi, B.A., LL.M.",
+    name: "A.R Amirta Bagavath Sihi, B.A., LL.M.",
     role: "Senior Advocate | Civil & Financial Law Specialist",
     desc: "Experienced advocate providing legal consultancy and court representation across Chennai, Chengalpattu, and surrounding areas.",
   },
   {
     image: femaleLawyer,
-    name: "V.H. Gokulan, B.A., LL.M.",
+    name: "V.H. Gokulam, B.A., LL.M.",
     role: "Advocate | Consumer & Litigation Specialist",
     desc: "Dedicated legal consultant offering client-focused support in litigation and legal advisory services.",
   },
