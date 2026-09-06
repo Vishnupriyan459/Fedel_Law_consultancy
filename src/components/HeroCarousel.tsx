@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import ladyJustice from "@/assets/god_of_justice.svg";
 import highcourt from "@/assets/highcourt.jpg";
 import building from "@/assets/building.png";
-
+import legaldoc from "@/assets/legal_documentation.jpg";
 const slides = [
   {
     headline: "Expert Legal Advice\nis Just a Phone Call\nAway.",
@@ -24,8 +24,8 @@ const slides = [
     headline: "Complete Legal\nDocumentation Services\nin Tamil Nadu",
     subtext:
       "From legal opinions to property registration, we handle essential legal documentation and representation with accuracy and professionalism.",
-    image: building,
-    imageClass: " object-contain drop-shadow-xl",
+    image: legaldoc,
+    imageClass: " object-contain rounded-xl drop-shadow-xl ",
   },
 ];
 
@@ -124,7 +124,7 @@ const HeroCarousel = () => {
               ))}
             </div>
             {/* RIGHT IMAGE */}
-            <div className="order-3 md:order-2 flex justify-center relative">
+            <div className="order-3 md:order-2 flex justify-center relative  ">
               <motion.img
                 initial={{ opacity: 0, scale: 0.95 }}
                 animate={{ opacity: 1, scale: 1 }}

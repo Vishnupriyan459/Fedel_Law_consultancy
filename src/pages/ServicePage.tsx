@@ -340,18 +340,18 @@ export default function ServicePage() {
           </ul>
         </div>
       )}
-      <div className="bg-white w-full">
-  <h1 className="font-bold text-center pt-4  text-[clamp(1.35rem,2vw,4rem)]">How We Support Your Case</h1>
+      <div className="bg-white min-h-[85vh] w-full">
+  <h1 className="font-bold text-center pt-9  text-[clamp(1.35rem,2vw,4rem)]">How We Support Your Case</h1>
 
   <div className="flex max-md:flex-col items-stretch justify-around py-9 px-1 gap-5 mx-3 ">
     {support.map((item, index) => (
       <div
         key={index}
-        className="flex-1 min-w-0 flex flex-col justify-center items-center border border-[#e8e2d6] rounded px-3 py-9 gap-4"
+        className="flex-1 min-w-0 min-h-[9cm] flex flex-col justify-center items-center border border-[#e8e2d6] rounded px-3 py-9 gap-4"
       >
         <div className="text-[clamp(2rem,2vw,1.5rem)]">{item.icon}</div>
 
-        <h3 className="font-medium text-center w-full  text-[clamp(0.85rem,1.5vw,1rem)]">
+        <h3 className="font-medium text-center w-full  text-[clamp(0.89rem,1.7vw,1.2rem)]">
           {item.Title}
         </h3>
 
